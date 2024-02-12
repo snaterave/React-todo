@@ -1,0 +1,31 @@
+
+.TodoSkeleton{
+    background-color:#fafafa;
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:24px;
+    box-shadow:0 5px 50px rgba(32,35,41,.15);
+    height: 72px;
+  }
+
+  .TodoSkeleton-deleteIcon {
+    position: absolute;
+    top: -24px;
+    right: 0;
+  }
+
+  .TodoSkeleton-icon-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:48px;
+    width:48px;
+    font-size:24px;
+    font-weight:700;
+    left: 12px;
+  }
+  
+
+
